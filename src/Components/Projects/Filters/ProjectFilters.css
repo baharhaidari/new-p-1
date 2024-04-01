@@ -1,0 +1,26 @@
+.filter__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.filter__container li {
+  font-size: 1.4rem;
+  padding: 0.3rem 0.5rem;
+  list-style-type: none;
+}
+
+.filter__container li:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .filter__container {
+    gap: 1rem;
+  }
+
+  .filter__container li {
+    font-size: 1.1rem;
+  }
+}
